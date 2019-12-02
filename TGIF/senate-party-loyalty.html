@@ -69,7 +69,7 @@
                             <h3 class="text-right my-auto pb-3">Senate at a glance</h3>
                             <thead class="thead-dark">
                                 <tr>
-                                    <th>Party</th>
+                                    <th><span id="load-spinner" class="spinner-border spinner-border-sm"></span> Party</th>
                                     <th>Number of Reps</th>
                                     <th>% Voted with Prty</th>
                                 </tr>
@@ -95,11 +95,11 @@
             <div class="container mt-2 mb-2">
                 <div class="row">
                     <div class="col-sm-6">
-                        <h2>Least Loyal (Bottom 10% of Party)</h2>
+                        <h3>Least Loyal (Bottom 10% of Party)</h3>
                         <table id="least-loyal-table" class="table table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th>Name</th>
+                                    <th><span id="load-spinner2" class="spinner-border spinner-border-sm"></span> Name</th>
                                     <th>Number Party Votes</th>
                                     <th>% Party Votes</th>
                                 </tr>
@@ -113,7 +113,7 @@
                         <table id = "most-loyal-table" class="table table-hover">
                             <thead class="thead-dark">
                                 <tr>
-                                    <th>Name</th>
+                                    <th><span id="load-spinner3" class="spinner-border spinner-border-sm"></span> Name</th>
                                     <th>Number Party Votes</th>
                                     <th>% Party Votes</th>
                                 </tr>
@@ -134,8 +134,7 @@
                 </div>
             </div>
         </footer>
-    <script type="text/javascript" src="JavaScript/senate_data_forStats.js"></script>
-    <script type="text/javascript" src="JavaScript/Senate_loyalty.js"></script>     
+    <script type="text/javascript" src="JavaScript/Senate_loyalty_live.js"></script>     
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
